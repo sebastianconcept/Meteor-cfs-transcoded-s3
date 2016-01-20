@@ -18,7 +18,7 @@ Npm.depends({
 Package.onUse(function (api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript');
-  api.use(['cfs-base-package', 'cfs-storage-adapter']);
+  api.use(['cfs:base-package', 'cfs:storage-adapter']);
   api.addFiles('transcodeds3.client.js', 'client');
   api.addFiles('transcodeds3.server.js', 'server');
 
