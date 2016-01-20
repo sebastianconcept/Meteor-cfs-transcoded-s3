@@ -11,7 +11,7 @@
  * storing some info.
  *
  */
-FS.Store.TranscodedS3 = function(name, options) {
+FS.Store.TranscodedS3 = function (name, options) {
     var self = this;
     if (!(self instanceof FS.Store.TranscodedS3)){
         throw new Error('FS.Store.TranscodedS3 missing keyword "new"');
@@ -22,6 +22,6 @@ FS.Store.TranscodedS3 = function(name, options) {
     });
 };
 
-FS.Store.TranscodedS3.prototype.fileKey = function(fileObj) {
+FS.Store.TranscodedS3.prototype.fileKey = function (fileObj) {
     return fileObj.collectionName + '/' + fileObj._id + '-' + fileObj.name();
 };

@@ -1,4 +1,4 @@
-Meteor-cfs-transcoded-s3
+cfs-transcoded-s3
 ========================
 
 A CFS Storage Adapter that uploads the file to AWS S3 and transcodes it via the Elastic Transcoder
@@ -7,7 +7,7 @@ A CFS Storage Adapter that uploads the file to AWS S3 and transcodes it via the 
 ##Setup
 - Create an S3 Bucket
 - Create an Transcoding Pipeline
-- Create IAM User with sufficient rights, for example: 
+- Create IAM User with sufficient rights, for example:
   - "Amazon Elastic Transcoder Jobs Submitter"
   - "Amazon S3 Full Access"
 
