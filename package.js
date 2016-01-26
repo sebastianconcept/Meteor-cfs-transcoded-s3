@@ -1,6 +1,6 @@
 Package.describe({
   name: 'flowingconcept:cfs-transcoded-s3',
-  version: '0.0.3',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
   summary: 'Storage adapter for CollectionFS that uses AWS Elastic Transcoder to transcode and store files in S3',
   // URL to the Git repository containing the source code for this package.
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'aws-sdk': '2.0.0-rc9',
+  'aws-sdk': '2.2.32',
   's3-write-stream': '0.0.1'
 });
 
