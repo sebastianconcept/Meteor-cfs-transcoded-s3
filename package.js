@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'aws-sdk': 'aws-sdk@2.0.0-rc8',
+  'aws-sdk': '2.0.0-rc8',
   's3-write-stream': '0.0.1'
 });
 
