@@ -12,7 +12,7 @@ Package.describe({
 
 Npm.depends({
   'aws-sdk': '2.0.0-rc9',
-  's3-write-stream': '1.0.7'
+  's3-write-stream': '0.0.1'
 });
 
 Package.onUse(function (api) {
